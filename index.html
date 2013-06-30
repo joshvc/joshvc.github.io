@@ -37,18 +37,23 @@
       </div>
       <div class="row">
         <div class="large-6 columns">
-           <p>I'm Josh Van Cleef. I'm a former insurance geek turned Rails developer, amongst other things. I've worked with <a href="http://www.pixelgrazer.com">Pixelgrazer</a>, <a href="http://www.envylabs.com">Envy Labs</a>, and <a href="http://www.codeschool.com">Code School</a> and I'm now available for contract work.</p>
+           <p>I'm Josh Van Cleef. I'm a former insurance geek turned Rails developer, amongst other things. I've worked with <a href="http://www.pixelgrazer.com">Pixelgrazer</a>, <a href="http://www.envylabs.com">Envy Labs</a>, and <a href="http://www.codeschool.com">Code School</a> and I'm now available for contract work. A little more work info is <a href="#" id="moreWork">here</a>.</p>
         </div>
         <div class="large-6 columns">
           <p>I enjoy technical teaching, screencasting, and the occasional podcast. I've been a contributor to <a href="http://ruby5.envylabs.com">Ruby5</a> and <a href="http://tv.codeschool.com">Code TV</a> and I've got a few other things in the works. </p>
         </div>
       </div>
       <div class="row">
-        <div class="large-6 columns">
+        <div class="large-6 columns" id="point" >
           <img src="img/point.png" class="roundoff">
         </div>
+
+        <div class="large-6 columns" id="credentials" style="display:none">
+          <p>I've got about 3 years experience in Ruby and Rails, including TDD, RSpec, Haml, the usuals. I've shipped projects with Knockout.js and Angular.js and have worked on Backbone apps too. I know just enough iOS to be dangerous, but working on leveling up to be useful there too. I'm happy to talk more details, just drop me a line. <a href="#" id="hideWork">Hide</a>
+          </p>
+        </div>
         <div class="large-6 columns">
-          <p>I live in Orlando, FL with my wife, our toddler, and two dogs. At any given time, I may well be doing something at <a href="http://www.summitconnect.org">Summit Church</a>, most likely hanging with kids much cooler than me at Summit Surge. I'm obsessed with motorsports, and I spend a fair amount of time logging laps on <a href="http://www.iracing.com">iRacing</a>. If I'm lucky, I might be on vacation at a race track, national park, or ski hill somewhere.</p>
+          <p>I live in Orlando, FL with my wife, our toddler, and two dogs. At any given time, I may well be doing something at <a href="http://www.summitconnect.org">Summit Church</a>, most likely hanging with kids much cooler than me at Summit Surge. I'm obsessed with motorsports, and I spend a fair amount of time logging laps on <a href="http://www.iracing.com">iRacing</a>. If I'm lucky, I might be on vacation at a <a href="#" class="quiet_link" id="showtracks">race track</a>, national park, or ski hill somewhere.</p>
         </div>
       </div>
       <div class="row">
@@ -57,8 +62,11 @@
         <a href="http://www.linkedin.com/in/joshvc">linkedin</a>, and occasionally on 
         <a href="http://www.facebook.com/jdvancleef"> facebook</a>. For email, it's josh@ this domain. Say Hi sometime or share a hug.</p>
         </div>
-        <div class="large-6 columns">
+        <div class="large-6 columns" id="hug">
           <img src="img/hug.png" class="roundoff">
+        </div>
+        <div class="large-6 columns" id="tracks" style="display:none">
+          <img src="img/tracks.png" class="roundoff">
         </div>
       </div>
 
@@ -83,6 +91,6 @@
   <script>
     $(document).foundation();
   </script>
-
+  <script src="js/application.js"></script>
 </body>
 </html>
