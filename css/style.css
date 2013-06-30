@@ -6,3 +6,11 @@
 .quiet_link{
   color: #000;
 }
+
+.secondrow{
+  height: 270px;
+}
+
+.close{
+  font-size: 0.8em;
+}
