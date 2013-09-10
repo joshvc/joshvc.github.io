@@ -1,0 +1,20 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : 
+ Author : 
+ URL : http://
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+#header{
+  display: none;
+}
+input[type=submit] { /* Text and background colour, blue on light gray */
+color:#919191;
+background-color:#3f3f3f;
+width: 257px;
+height: 48px;
+border-width: 0px;
+}
+
