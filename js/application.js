@@ -1,20 +1,20 @@
 $(document).ready(function() {
   $('#moreWork').click(function(e){
-    swapDiv($('#credentials'), $('#point'))
+    swapDiv($('#credentials'), $('#falcon'))
     e.preventDefault();
   });
 
   $('#hideWork').click(function(e){
-    swapDiv($('#point'), $('#credentials'))
+    swapDiv($('#falcon'), $('#credentials'))
     e.preventDefault();
   });
 
   $('#showtracks').mouseenter(function(){
-    $('#hug').toggle();
+    $('#mtb').toggle();
     $('#tracks').toggle();
   });
   $('#showtracks').mouseleave(function(){
-    $('#hug').toggle();
+    $('#mtb').toggle();
     $('#tracks').toggle();
   })
 
